@@ -1,0 +1,12 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/src/app/page": [
+      "static/media/Inter_SemiBold-s.p.223a8d2b.woff2",
+      "static/media/Inter_Medium-s.p.db573cc0.woff2",
+      "static/media/Inter_Regular-s.p.9460c18d.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}
