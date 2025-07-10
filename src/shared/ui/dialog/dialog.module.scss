@@ -10,12 +10,12 @@
   height: 100%;
   max-width: none;
   max-height: none;
-}
 
-dialog:open {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  &:open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .dialogContainer {

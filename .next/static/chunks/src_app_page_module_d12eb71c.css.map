@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/userunknown/test_projects/starvell_test_task/src/app/page.module.css"],"sourcesContent":[".page {\n  max-width: 1256px;\n  margin: 24px auto;\n  padding: 40px 0;\n\n  border: 1px solid var(--color-border);\n  background: var(--color-white);\n  border-radius: 16px;\n  position: relative;\n}\n\n.image {\n  position: absolute;\n  right: 0;\n  top: 0;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;AAWA","debugId":null}}]
-}

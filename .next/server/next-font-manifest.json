@@ -1,17 +1,1 @@
-{
-  "app": {
-    "[project]/src/app/_not-found/page": [
-      "static/media/Inter_SemiBold-s.p.223a8d2b.woff2",
-      "static/media/Inter_Medium-s.p.db573cc0.woff2",
-      "static/media/Inter_Regular-s.p.9460c18d.woff2"
-    ],
-    "[project]/src/app/page": [
-      "static/media/Inter_SemiBold-s.p.223a8d2b.woff2",
-      "static/media/Inter_Medium-s.p.db573cc0.woff2",
-      "static/media/Inter_Regular-s.p.9460c18d.woff2"
-    ]
-  },
-  "appUsingSizeAdjust": true,
-  "pages": {},
-  "pagesUsingSizeAdjust": false
-}
+{"pages":{},"app":{"/Users/userunknown/test_projects/starvell_test_task/src/app/layout":["static/media/d080ae18fd04e52c-s.p.woff2","static/media/242d04bef81519ae-s.p.woff2","static/media/cac2ba46e8c8adc9-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}
