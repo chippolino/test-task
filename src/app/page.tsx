@@ -183,7 +183,7 @@ export default function Home() {
                 <TableCell>🤑🔥🕘Аренда Вип Сервера | 24 часа🕒🔥🤑, VIP-сервер</TableCell>
                 <TableCell>
                   <Card
-                    image="/avatar.png"
+                    image="./avatar.png"
                     rating={4.9}
                     isOnline
                     name="0xHearts.com"
@@ -198,7 +198,7 @@ export default function Home() {
                 <TableCell>❤ФРУКТ СПИРИТ, СПИРИТ, БЛОКС ФРУКТ, SPIRIT💛💢, Предметы, Трейд</TableCell>
                 <TableCell>
                   <Card
-                    image="/avatar.png"
+                    image="./avatar.png"
                     rating={2}
                     isOnline
                     name="IgorDun4enkoff"
@@ -214,7 +214,7 @@ export default function Home() {
                   🤲Куплю и пройду рейд БУДДЫ - БУДДА РЕЙД - БУДА - место будды - Рейды буды - BUDDHA RAID - 🤲, Услуги
                 </TableCell>
                 <TableCell>
-                  <Card image="/avatar.png" rating={5} name="Dendi" experience="2 дня" countReview={4} />
+                  <Card image="./avatar.png" rating={5} name="Dendi" experience="2 дня" countReview={4} />
                 </TableCell>
                 <TableCell>4 556</TableCell>
                 <TableCell>0.60 ₽</TableCell>
@@ -222,7 +222,7 @@ export default function Home() {
               <TableRow>
                 <TableCell>🍩 Рейд Теста - МЕСТО ТЕСТА - ДОУЧ</TableCell>
                 <TableCell>
-                  <Card image="/avatar.png" rating={1} isOnline name="qewbie" experience="5 лет" countReview={200} />
+                  <Card image="./avatar.png" rating={1} isOnline name="qewbie" experience="5 лет" countReview={200} />
                 </TableCell>
                 <TableCell>15 666</TableCell>
                 <TableCell>0.55 ₽</TableCell>
@@ -230,7 +230,7 @@ export default function Home() {
               <TableRow>
                 <TableCell>💛Фрукт Будда💛 Buddha Fruit</TableCell>
                 <TableCell>
-                  <Card image="/avatar.png" rating={3} name="qewbie" experience="5 лет" countReview={200} />
+                  <Card image="./avatar.png" rating={3} name="qewbie" experience="5 лет" countReview={200} />
                 </TableCell>
                 <TableCell>104 242</TableCell>
                 <TableCell>0.55 ₽</TableCell>
