@@ -49,7 +49,7 @@ export const Dialog = forwardRef<IDialog, DialogProps>(function Dialog({ label, 
         </article>
         <div className={s.closeButtonWrapper}>
           <button onClick={handleCloseButtonClick} className={s.closeButton}>
-            <Image src="/close.svg" width={24} height={24} alt="close" />
+            <Image src="./close.svg" width={24} height={24} alt="close" />
           </button>
         </div>
       </div>

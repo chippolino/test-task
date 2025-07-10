@@ -75,7 +75,7 @@ export default function Home() {
               </RadioGroup>
             </div>
           </div>
-          <Image src="/lego.png" width={418} height={414} alt="lego" className={s.image} />
+          <Image src="./lego.png" width={418} height={414} alt="lego" className={s.image} />
         </div>
 
         <div className={s.main}>
@@ -144,7 +144,7 @@ export default function Home() {
               </span>
             </label>
             <label className={s.switchLabel}>
-              <Image src="/lightning.svg" width={12} height={12} alt="lightning" />
+              <Image src="./lightning.svg" width={12} height={12} alt="lightning" />
               <span>Моментальная доставка</span>
               <span className={s.switch}>
                 <input type="checkbox" className={s.switchInput} onChange={() => {}} />
@@ -155,7 +155,7 @@ export default function Home() {
             <form className={s.formSearch}>
               <Input
                 inputSize="md"
-                leftSection={<Image priority src="/search.svg" width={16} height={16} alt="search icon" />}
+                leftSection={<Image priority src="./search.svg" width={16} height={16} alt="search icon" />}
                 type="search"
                 placeholder="Поиск по описанию лота..."
               />
@@ -171,10 +171,10 @@ export default function Home() {
                 <TableHead>Описание</TableHead>
                 <TableHead>Продавец</TableHead>
                 <TableHead>
-                  Наличие <Image src="/sort.svg" width={12} height={12} alt="#" />
+                  Наличие <Image src="./sort.svg" width={12} height={12} alt="#" />
                 </TableHead>
                 <TableHead>
-                  Цена <Image src="/sort.svg" width={12} height={12} alt="#" />{' '}
+                  Цена <Image src="./sort.svg" width={12} height={12} alt="#" />{' '}
                 </TableHead>
               </TableRow>
             </TableHeader>

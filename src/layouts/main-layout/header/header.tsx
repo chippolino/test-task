@@ -11,12 +11,12 @@ export const Header = () => {
       <div className="container">
         <div className={s.flex}>
           <Link href="/" className={s.logo}>
-            <Image priority src="/logo.svg" width={118} height={24} alt="STARVEL" />
+            <Image priority src="./logo.svg" width={118} height={24} alt="STARVEL" />
           </Link>
 
           <form className={s.formSearch}>
             <Input
-              rightSection={<Image priority src="/search.svg" width={16} height={16} alt="search icon" />}
+              rightSection={<Image priority src="./search.svg" width={16} height={16} alt="search icon" />}
               type="search"
               placeholder="Поиск игр и приложений..."
             />
@@ -24,7 +24,7 @@ export const Header = () => {
 
           <div className={s.settings}>
             <Link href="/" className={s.supportLink}>
-              Поддержка <Image priority src="/arrow-down.svg" width={16} height={16} alt="search icon" />
+              Поддержка <Image priority src="./arrow-down.svg" width={16} height={16} alt="search icon" />
             </Link>
             <div
               className={s.customSelect}
