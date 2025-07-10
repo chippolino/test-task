@@ -1,0 +1,55 @@
+.root {
+  display: flex;
+  gap: 8px;
+}
+
+.imageWrap {
+  position: relative;
+  width: 28px;
+  height: 28px;
+}
+
+.image {
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.imageStatus {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background: #9e9da4;
+  border: 2px solid var(--color-white);
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.online {
+  background: #1db462;
+}
+
+.titleWrap {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-gray);
+}
+
+.title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.titleOnline {
+  color: var(--color-dark-blue);
+}
+
+.text {
+  margin-top: 1px;
+  font-size: 12px;
+  line-height: 18px;
+}

@@ -1,6 +1,7 @@
 :root {
   --color-white: #ffffff;
   --color-dark-blue: #36394a;
+  --color-light-blue: #33363e;
   --color-blue: #4e75ff;
   --color-blue-rgb: 92, 128, 253;
   --color-blue-alpha-08: rgba(var(--color-blue-rgb), 0.08);
@@ -8,4 +9,5 @@
   --color-dark-gray: #f7f7f7;
   --color-gray: #6e7076;
   --color-light-gray: #9e9da4;
+  --color-border: #e8ebf0;
 }

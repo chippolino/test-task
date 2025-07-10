@@ -22,13 +22,8 @@ __turbopack_context__.n(__turbopack_context__.i("[project]/src/app/layout.tsx [a
 var { g: global, __dirname } = __turbopack_context__;
 {
 __turbopack_context__.v({
-  "ctas": "page-module___8aEwW__ctas",
-  "footer": "page-module___8aEwW__footer",
-  "logo": "page-module___8aEwW__logo",
-  "main": "page-module___8aEwW__main",
+  "image": "page-module___8aEwW__image",
   "page": "page-module___8aEwW__page",
-  "primary": "page-module___8aEwW__primary",
-  "secondary": "page-module___8aEwW__secondary",
 });
 }}),
 "[project]/src/app/page.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
@@ -40,23 +35,62 @@ __turbopack_context__.s({
     "default": (()=>Home)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/app/page.module.css [app-rsc] (css module)");
+;
 ;
 ;
 function Home() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].page,
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-            disabled: true,
-            children: "123"
-        }, void 0, false, {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "container",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {}, void 0, false, {
+                            fileName: "[project]/src/app/page.tsx",
+                            lineNumber: 9,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                            src: "/lego.png",
+                            width: 418,
+                            height: 414,
+                            alt: "lego",
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].image
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/page.tsx",
+                            lineNumber: 10,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/app/page.tsx",
+                    lineNumber: 8,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    style: {
+                        fontSize: '16px',
+                        lineHeight: '24px',
+                        color: '#6E7076'
+                    },
+                    children: "Какой-то длинный текст, связанный с SEO-оптимизацией относительно данной категории, на которую вы сейчас смотрите. Какой-то длинный текст, связанный с SEO-оптимизацией относительно данной категории, на которую вы сейчас смотрите."
+                }, void 0, false, {
+                    fileName: "[project]/src/app/page.tsx",
+                    lineNumber: 12,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 6,
+            lineNumber: 7,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/page.tsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 }

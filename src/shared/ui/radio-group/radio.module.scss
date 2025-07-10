@@ -1,0 +1,31 @@
+.label {
+  display: inline-block;
+  position: relative;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5c80fd;
+  background: var(--color-blue-alpha-08);
+  user-select: none;
+  white-space: nowrap;
+  border-radius: 6px;
+  transition: all 250ms ease;
+
+  &:has(input:checked) {
+    color: var(--color-white);
+    background: #5c80fd;
+  }
+}
+
+.input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radioGroup {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

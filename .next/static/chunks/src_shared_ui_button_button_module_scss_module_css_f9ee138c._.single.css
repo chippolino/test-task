@@ -22,17 +22,17 @@
 }
 
 .button-module-scss-module__WBuRGq__button:hover {
-  opacity: .8;
+  background: var(--color-dark-gray);
 }
 
 .button-module-scss-module__WBuRGq__primary {
   color: var(--color-white);
-  background: linear-gradient(#fff0 0%, #c1c7d005 100%), #4e75ff;
+  background: linear-gradient(180deg, #fff0 0%, #c1c7d005 100%), var(--color-blue);
   box-shadow: 0 1px 2px #3959cc80, 0 0 0 1px #4665d2;
 }
 
 .button-module-scss-module__WBuRGq__primary:hover {
-  opacity: .8;
+  background: var(--color-blue-alpha-100);
 }
 
 .button-module-scss-module__WBuRGq__success {

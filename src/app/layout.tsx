@@ -1,3 +1,4 @@
+import { MainLayout } from '@/layouts/main-layout';
 import { Inter } from '@/shared/assets/fonts';
 import type { Metadata } from 'next';
 import '../shared/style/_globals.scss';
@@ -14,7 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
-      <body className={Inter.className}>{children}</body>
+      <body className={Inter.className}>
+        <MainLayout>{children}</MainLayout>
+      </body>
     </html>
   );
 }

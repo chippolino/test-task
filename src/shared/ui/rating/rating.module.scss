@@ -1,0 +1,30 @@
+.rating {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-flex;
+  gap: 2px;
+  align-items: center;
+  padding: 2px 4px;
+  border-radius: 6px;
+}
+
+.low {
+  color: #ff5c5c;
+  background: #ff5c5c14;
+}
+
+.medium {
+  color: #ff8e26;
+  background: #ff8e2614;
+}
+
+.high {
+  color: #e1b000;
+  background: #ffe50014;
+}
+
+.excellent {
+  color: #1db462;
+  background: #1db46214;
+}
